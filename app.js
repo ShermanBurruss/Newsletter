@@ -6,7 +6,7 @@ const app=express();
 
 client.setConfig({apiKey: "c6ab2d3f735cfee409399f8276a8d017-us21",  server: "us21",});
 
-app.use(express.static("Public"));
+app.use(express.static("public"));
 app.use(bodyParser.urlencoded({extended: true}));
 
 app.listen(process.env.PORT || 3000, function(){
