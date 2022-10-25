@@ -34,3 +34,8 @@ body {
   border-top-right-radius: 0;
   border-top-left-radius: 0;
 }
+input::placeholder {
+    font-weight: bold;
+    opacity: .5;
+    color: red;
+}
